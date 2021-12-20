@@ -1,0 +1,70 @@
+#login-page {
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+#login-pic{
+    margin-top: 25px;
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+    object-fit: fill;
+}
+
+figure{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fig-title, #fig-cap {
+    color: white;
+}
+
+#fig-title{
+    margin-top: 10px;
+    caption-side: top;
+    display: table-caption;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#fig-cap{
+    margin-top: 10px;
+    caption-side: bottom;
+    display: table-caption;
+    font-size: 20px;
+}
+
+#input-spacing{
+    margin-bottom: 10px;
+}
+
+#login-button{
+    position: fixed;
+    top: 8px;
+    right: 16px;
+}
+
+#login-div{
+    display: flex;
+}
+
+#create-button{
+    background-color: rgb(66,183,42) !important;
+}
+
+.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+    filter: invert(100%);
+    display: none;
+}
+
+#username, #password, #first, #last, #startyear {
+    border-radius: 5px;
+    background-color: #424242;
+    color: white;
+}
+
+input::placeholder {
+    color: #E2E2E2;
+}

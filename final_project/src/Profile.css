@@ -1,0 +1,49 @@
+#profile-pic {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: fill;
+    width: 285;
+    height: 285px;
+}
+
+#profile-info{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+}
+
+#profile-name{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#input-spacing{
+    margin-bottom: 10px;
+}
+
+.edit-formlabel {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+
+.edit-forminput, .edit-formlabel {
+    float:left;
+    margin-top: 10px;
+}
+
+#edit-firstname, #edit-lastname, #edit-username, #edit-password, #edit-profile-pic {
+    border-radius: 5px;
+    background-color: #424242;
+    color: white;
+}
+
+input::placeholder {
+    color: #888888;
+}
